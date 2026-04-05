@@ -142,18 +142,20 @@ ul {
 .image-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 16px;
+  gap: 24px;
   margin-top: 18px;
 }
 
 .portfolio-shot {
-  margin-bottom: 12px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 .portfolio-shot img {
   width: 100%;
-  max-width: 100%;
+  max-width: 700px;
   height: auto;
   display: block;
   border-radius: 12px;
+  margin: 0 auto;
 }
