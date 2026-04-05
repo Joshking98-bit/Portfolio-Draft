@@ -135,3 +135,25 @@ ul {
     padding-top: 4rem;
   }
 }
+.portfolio-item {
+  overflow: visible;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.portfolio-shot {
+  margin-bottom: 12px;
+}
+
+.portfolio-shot img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
